@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudyVerse Quiz Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+    <div class="blob blob3"></div>
+
+    <nav class="navbar">
+
+    <div class="logo">StudyVerse</div>
+
+    <div class="menu-toggle" id="menuToggle">
+        ☰
+    </div>
+
+    <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="notes.html">Notes</a></li>
+            <li><a href="quiz.html">Quiz Hub</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="resources.html">Resources</a></li>
+        </ul>
+
+        <button id="themeToggle" class="theme-btn">
+            🌙
+        </button>
+
+    </nav>
+
+    <section class="hero" style="min-height:40vh;">
+
+        <span class="badge">
+            🧠 Quiz Hub
+        </span>
+
+        <h1>
+            Test Your
+            <span>Knowledge</span>
+        </h1>
+
+        <p>
+            Practice high-yield MDCAT concepts with interactive quizzes.
+        </p>
+
+    </section>
+
+    <section class="section">
+
+        <div class="quiz-card">
+
+            <h3 id="question">
+                Loading Question...
+            </h3>
+
+            <div id="answers"></div>
+
+            <br>
+
+            <button id="nextBtn" class="primary-btn">
+                Next Question
+            </button>
+
+            <br><br>
+
+            <h3>
+                Score:
+                <span id="score">
+                    0
+                </span>
+            </h3>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <h3>StudyVerse</h3>
+
+        <p>
+            Helping students learn smarter every day.
+        </p>
+
+        <p class="copyright">
+            © 2026 StudyVerse
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
